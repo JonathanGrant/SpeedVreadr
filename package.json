@@ -1,0 +1,22 @@
+{
+  "name": "speedvreadr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanGrant/SpeedVreadr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanGrant/SpeedVreadr/issues"
+  },
+  "homepage": "https://github.com/JonathanGrant/SpeedVreadr#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
