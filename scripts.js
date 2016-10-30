@@ -24,7 +24,7 @@ var Sky = React.createClass({
 
 var Words = React.createClass({
     render: function() {
-        return(<a-entity text={"text: "+this.props.word} position="-1 -1 -4" scale="1 1 1"></a-entity>)
+        return(<a-entity text={"text: "+this.props.word} position="-1 0 -4" scale="1 1 1"></a-entity>)
     }
 })
 
