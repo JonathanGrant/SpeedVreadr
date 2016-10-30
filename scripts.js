@@ -7,6 +7,7 @@ var Camera = React.createClass({
   render: function() {
     return (
         <a-camera position={this.state.pos}>
+          <Words word={this.props.word}/>
         </a-camera>
         )
   }
@@ -71,9 +72,8 @@ var AFrameScene = React.createClass({
   render: function() {
     return (
       <a-scene onMouseDown={this.btnPress}>
-        <Camera />
+        <Camera word={this.state.words[this.state.currentWord]}/>
         <Sky />
-        <Words word={this.state.words[this.state.currentWord]}/>
       </a-scene>)
   }
 })
