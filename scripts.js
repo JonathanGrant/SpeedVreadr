@@ -7,7 +7,6 @@ var Camera = React.createClass({
   render: function() {
     return (
         <a-camera position={this.state.pos}>
-            <a-cursor color="#FF0000"></a-cursor>
         </a-camera>
         )
   }
